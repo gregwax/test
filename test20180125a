@@ -3,5 +3,10 @@
 <head>
 </head>
 <body>
+  <ol>
+     <li>Clothes</li>
+	 <li>Cars</li>
+	 <li>Cash</li>
+  </ol>
 </body
 </html>
