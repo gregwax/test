@@ -1,0 +1,11 @@
+<aura:component >
+    <aura:attribute name="item"
+                type="Camping_Item__c"
+                required="true"/>
+    <h2>Name:</h2>
+    "{! v.item.Name}"
+    <h2>Quantity</h2>
+    <p>
+        <lightning:formattedNumber value="{! v.item.Quantity__c}" style="decimal"/>
+    </p>
+</aura:component>

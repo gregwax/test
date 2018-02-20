@@ -1,0 +1,8 @@
+<aura:component >
+    <c:helloHeading />
+    <p>Hello Lightning!</p>
+    <aura:attribute name="customMessage" type="String" default="Greg Message"/>
+    
+    <p> <c:helloMessage message="{!v.customMessage}"/> </p>
+    
+</aura:component>

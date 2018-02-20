@@ -1,0 +1,10 @@
+<apex:page >
+<apex:tabPanel switchType="client" selectedTab="opportunities2" id="theTabPanel">
+<apex:tab label="Accounts" name="account1" id="tabOne">
+content for tab one
+</apex:tab>
+<apex:tab label="Opportunities" name="opportunities2" id="tabTwo">
+content for tab two
+</apex:tab>
+</apex:tabPanel>
+</apex:page>

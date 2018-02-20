@@ -1,0 +1,9 @@
+.THIS .ghost {
+   background-color:"blue" ;
+}
+.THIS.div.ghost {
+   background-color:"black" ;
+}
+.THIS.ghost {
+   background-color:"red" ;
+}

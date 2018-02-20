@@ -1,0 +1,6 @@
+<apex:page standardcontroller="Opportunity"  >
+<!-- https://na42.salesforce.com/0062A00000lFugO -->
+
+<apex:detail />
+
+ </apex:page>

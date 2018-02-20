@@ -1,0 +1,39 @@
+<apex:page standardController="Opportunity" showheader="false" sidebar="false" tabStyle="Opportunity"> 
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed!";
+}
+</script>
+<script>
+function chgText(str){
+  
+  var elem = document.getElementById("theButton");
+  if ( elem.value=="click me")   elem.value="clicked";
+  else
+  elem.value="click me";
+  
+  var elem2 = document.getElementById("theName");
+  if (elem2==null){
+    document.getElementById("demo").innerHTML = "Opportunity Name should not be blank!";
+    var elem3 = document.getElementById("demo").innerHTML;
+    elem3.text="it worked!";
+    alert(elem3.text);
+    var textbox = document.getElementById("theName");
+    textbox.focus();
+    textbox.scrollIntoView();
+  }
+}
+</script>
+<apex:form > 
+
+<p id="demo" onclick="myFunction()" >Click me to change my HTML content (innerHTML).</p>
+
+<apex:pageBlock >
+<apex:outputLabel value="Opp Name" for="theName" onmouseover="this.style.color='Red';" onmouseout="this.style.color='Blue';" onblur="this.text='Don\'t touch me';" />
+<apex:inputtext value="{!opportunity.name}" id="theName"/><br /><br />
+<apex:outputLabel value="Opp StageName" for="theStageName" onmouseout="this.style.color='Blue';" onmouseover="this.text='Don\'t touch me';" />
+<apex:inputtext value="{!opportunity.StageName}" id="theStageName" onmouseout="this.style.color='Blue';"/>
+<input type="button" value="click me" style="color:white;background-color:black;" id="theButton" onclick="chgText('hello');" />
+</apex:pageBlock> 
+</apex:form>
+</apex:page>

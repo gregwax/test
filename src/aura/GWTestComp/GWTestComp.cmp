@@ -1,0 +1,6 @@
+<aura:component >
+    <h1>This is my header</h1>
+    <p> this is my paragraph </p>
+    <div>This is a div</div>
+	
+</aura:component>

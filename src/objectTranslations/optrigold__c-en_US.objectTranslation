@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>optrigold</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>optrigolds</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- CloseDate --></label>
+        <name>CloseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- OppId --></label>
+        <name>OppId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability --></label>
+        <name>Probability__c</name>
+    </fields>
+    <fields>
+        <label><!-- StageName --></label>
+        <name>StageName__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
